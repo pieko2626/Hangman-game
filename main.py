@@ -44,7 +44,7 @@ while True:
     print(to_guess)
 
     word = word.upper()
-    chances = 1
+    chances = 6
     used_letters = []
     guessed_letters = set()
 
@@ -86,7 +86,7 @@ while True:
         while True:
             choice = input("Do you want to play again? (Y/N?)").upper()
             if choice == 'Y':
-                continue
+                break
             elif choice == 'N':
                 print("Bye!")
                 exit()
