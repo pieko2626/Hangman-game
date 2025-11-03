@@ -40,8 +40,8 @@ while True:
 
     to_guess = "".join(hidden)
 
-    print(word)
-    print(to_guess)
+    # print(word)
+    # print(to_guess)
 
     word = word.upper()
     chances = 6
