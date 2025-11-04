@@ -67,6 +67,7 @@ while True:
             continue
 
         guessed_letters.add(user_input)
+        used_letters.append(user_input)
 
         if user_input in word:
             print(f"{user_input} is here!")
